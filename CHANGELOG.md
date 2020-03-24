@@ -1,0 +1,1 @@
+- Support searching for all numbers.
