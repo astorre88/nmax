@@ -1,9 +1,7 @@
-RSpec.describe Nmax do
-  it "has a version number" do
-    expect(Nmax::VERSION).not_to be nil
-  end
+# frozen_string_literal: true
 
-  it "does something useful" do
-    expect(false).to eq(true)
+RSpec.describe Nmax do
+  it 'returns a max number' do
+    expect(Nmax::FindMax.call([2, 1, 3], 2)).to eq([3, 2])
   end
 end
