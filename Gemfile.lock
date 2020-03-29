@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nmax (0.1.0)
+    fun_nmax (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -27,9 +27,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  nmax!
+  fun_nmax!
   rake (~> 10.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
-   2.0.2
+   2.1.2

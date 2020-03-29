@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'nmax/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'nmax'
+  spec.name          = 'fun_nmax'
   spec.version       = Nmax::VERSION
   spec.authors       = ['Dmitry Vysotsky']
   spec.email         = ['bigbenperl@gmail.com']
