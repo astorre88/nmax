@@ -28,7 +28,7 @@ cat ~/Downloads/war_and_peace.txt | nmax 2
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/nmax.
+Bug reports and pull requests are welcome on GitHub at https://github.com/astorre88/nmax.
 
 ## License
 
