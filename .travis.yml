@@ -4,7 +4,9 @@ cache: bundler
 rvm:
   - 2.6.3
 dist: trusty
-before_install: gem install bundler -v 2.0.2
+before_install:
+  - gem i rubygems-update -v '<3' && update_rubygems
+  - gem install bundler -v 2.1.4
 deploy:
   provider: rubygems
   api_key:
