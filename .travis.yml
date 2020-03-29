@@ -1,7 +1,14 @@
----
 sudo: false
 language: ruby
 cache: bundler
 rvm:
-  - 2.6.3
+- 2.6.3
 before_install: gem install bundler -v 2.0.2
+deploy:
+  provider: rubygems
+  api_key:
+    secure: k0Saexv3tiJ7ufAyozVHGjCv3Pm81y3MHbEaseTkhklfceB+oxwiFtHdiDI3TCfVW/F5LirLJBoyBAJgGakQwJ0RngMo6CXgSHplYLgLeOsUjGk9FaveRUKvvIXzPsFYsnIdKYutRl0LLRXseuAa4rdWEBteTbaq6JzfQp7bSh9qK7UCQk7bXRT5rPCdGV+gCk1uY8bnPgH0R/tZ1ik4WLY577IYSVD8xkPImF7VDEEeMH9VZsKcR4PUXclDAqawNuTO7sll5iO0xjJFn+sgLNNyH472T4EfThNq/jtjwJYK8BWG6FciCLmPXTygEy2kDFvBHm4TvcADbCvkHLObJYHUyRI+/7ZvipVG/nfzcU7znAaUFKBjGwKEZcb6AxO+xXwNyWVc46EBRbIxk8zhCGyfHkIQyVHLqtGmPlawqXU/v8HUiiNXzmpRmK/vkn2BL4CZl8B0b/NBKgaFgAmo+zpWKhP+t7gM27oH7E1zIsmlBZVcONSnXWDPL99b9mHbtggIybceyXeluizyvTYmnj4Sz+rg0izGEUFhN8vieb0M0JuciwBmQ7ZIYyEKFFngOlTRy17YXDBuoxfbzqC37NL+jJl34uZmTYsut2DAsH0/+WIkRnGNsGBZWUmwXI8+jh7Q3k8L8k5iH7phbfKg3Jh9JR3VC5YfodQOl0BTcL0=
+  gem: fun_nmax
+  on:
+    tags: true
+    repo: astorre88/nmax
